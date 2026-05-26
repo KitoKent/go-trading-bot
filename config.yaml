@@ -1,0 +1,18 @@
+exchange: binance             # binance | bybit | ...
+
+symbols:
+  - BTCUSDT
+  - ETHUSDT
+
+interval: 5m                  # 1m, 5m, 15m, 1h, 4h, 1d
+
+strategy: mystrategy          # имя стратегии из internal/strategy/
+
+trade_log: data/trades.jsonl  # файл для записи сделок (jsonl)
+
+risk:
+  max_positions: 3
+  risk_percent: 2.0           # % от баланса на сделку
+  testnet: true               # true = тестнет Binance
+
+log_level: info               # debug | info | warn | error

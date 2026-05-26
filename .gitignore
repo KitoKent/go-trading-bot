@@ -1,0 +1,8 @@
+bot
+*.exe
+.env
+.vscode/
+.idea/
+data/trades.jsonl
+logs/
+.DS_Store
