@@ -42,8 +42,8 @@ trading-bot/
 ### 1. Клонируйте репозиторий
 
 ```bash
-git clone https://github.com/ваш_ник/trading-bot.git
-cd trading-bot
+git clone https://github.com/KitoKent/go-trading-bot.git
+cd go-trading-bot
 ```
 
 ### 2. Установите зависимости
