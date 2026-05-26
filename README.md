@@ -71,13 +71,13 @@ cp .env.example .env
 **Backtest** (рекомендуется начинать с него):
 
 ```bash
-go run ./cmd --mode backtest
+go run cmd/main.go --mode backtest
 ```
 
 **Live trading** (тестнет или реал):
 
 ```bash
-go run ./cmd --mode live
+go run cmd/main.go --mode live
 ```
 
 ## Как добавить свою стратегию
